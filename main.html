@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<title>러빙코드 실습 메인 화면</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript" src="resources/js/jquery.min.js"></script>
+<script type="text/javascript" src="resources/js/ui.js"></script>
+<script type="text/javascript" src="resources/js/slick.js"></script>
+<link href="resources/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<div id="skiptoContent">
+		<a href="#dMbody">본문 바로가기</a>
+	</div>
+
+	<header>
+		<div class="header">
+			<h1><a href="/">biensoft</a></h1>
+			<div class="util">
+				<button class="btn_login">로그인</button>
+				<!-- <button class="btn_logout">로그아웃</button> -->
+				<button class="btn_menu"><span>전체메뉴</span></button>
+			</div>
+			<h2>주 메뉴</h2><!-- 화면 상에선 안보여야 함 -->
+			<nav class="gnb">
+				<ul>
+					<li class="depth1">
+						<a href="">교육기관 소개</a>
+						<ul>
+							<li><a href="#">원장 인사말</a></li>
+							<li><a href="#">교육기관 역사</a></li>
+							<li><a href="#">교육기관 소개</a></li>
+						</ul>
+					</li>
+					<li class="depth1">
+						<a href="">교육신청</a>
+						<ul>
+							<li><a href="#">인기순 강좌 신청</a></li>
+							<li><a href="#">대상별 강좌 신청</a></li>
+							<li><a href="#">분야별 강좌 신청</a></li>
+							<li><a href="#">기간별 강좌 신청</a></li>
+						</ul>
+					</li>
+					<li class="depth1">
+						<a href="">강사뱅크</a>
+						<ul>
+							<li><a href="#">강사 보기</a></li>
+							<li><a href="#">강사 신청</a></li>
+						</ul>
+					</li>
+					<li class="depth1">
+						<a href="">알림마당</a>
+						<ul>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">이벤트</a></li>
+							<li><a href="#">자주하는 질문</a></li>
+						</ul>		
+					</li>
+					<li class="depth1">
+						<a href="">참여마당</a>
+						<ul>
+							<li><a href="#">강의 리뷰</a></li>
+							<li><a href="#">묻고 답하기</a></li>
+						</ul>		
+					</li>
+					<li class="depth1">
+						<a href="">MY페이지</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div id="dMbody" class="dm_body">
+		<div class="col_a">
+			<div class="visualSlider">
+				<div class="item" style="background: url(resources/images/tmp/visual1.jpg) no-repeat 50% 0; background-size: cover;">
+					<div class="txt_g">
+						<p>살아있는 배움! 행복학습</p>
+						<p>커피바리스타</p>
+					</div>
+				</div>
+				<div class="item" style="background: url(resources/images/tmp/visual2.jpg) no-repeat 50% 0; background-size: cover;">
+					<div class="txt_g">
+						<p>살아있는 배움! 행복학습</p>
+						<p>요가</p>
+					</div>
+				</div>
+				<div class="item" style="background: url(resources/images/tmp/visual3.jpg) no-repeat 50% 0; background-size: cover;">
+					<div class="txt_g">
+						<p>살아있는 배움! 행복학습</p>
+						<p>캘리그라피</p>
+					</div>
+				</div>
+			</div>
+		</div><!-- col_a -->
+
+		<section class="col_b">
+			<div class="box">
+				<ul class="tabs">
+					<li><a href="#views1" class="current">인기순 강좌</a></li>
+					<li><a href="#views2">대상별 강좌</a></li>
+					<li><a href="#views3">분야별 강좌</a></li>
+				</ul>
+				<div class="views" id="views1">
+					<h2>인기순 강좌</h2>
+					<ul>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum4.jpg" alt="풍경사진">풍경사진</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum3.jpg" alt="캘리그라피">캘리그라피</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum2.jpg" alt="커피바리스타">커피바리스타</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum5.jpg" alt="서양화">서양화</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum1.jpg" alt="필라테스">필라테스</a>
+						</li>
+					</ul>
+				</div>
+				<div class="views" id="views2">
+					<h2>대상별 강좌</h2>
+					<ul>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum1.jpg" alt="필라테스">필라테스</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum2.jpg" alt="커피바리스타">커피바리스타</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum3.jpg" alt="캘리그라피">캘리그라피</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum4.jpg" alt="풍경사진">풍경사진</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum5.jpg" alt="서양화">서양화</a>
+						</li>
+					</ul>
+				</div>
+				<div class="views" id="views3">
+					<h2>분야별 강좌</h2>
+					<ul>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum5.jpg" alt="서양화">서양화</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum1.jpg" alt="필라테스">필라테스</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum2.jpg" alt="커피바리스타">커피바리스타</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum3.jpg" alt="캘리그라피">캘리그라피</a>
+						</li>
+						<li>
+							<a href="#"><img src="resources/images/tmp/thum4.jpg" alt="풍경사진">풍경사진</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</section><!-- col_b -->
+
+		<section class="col_c">
+			<div class="colc_a">
+				<ul class="tabs">
+					<li><a href="#notice" class="current">공지사항</a></li>
+					<li><a href="#qna">자주하는 질문</a></li>
+				</ul>
+				<div class="board_list" id="notice">
+					<h2>공지사항</h2>
+					<ul>
+						<li><a href="#"><i>NEW</i>필라테스 12월 프로그램 할인 이벤트! 모집 안내합니다.</a><span>2022.10.01</span></li>
+						<li><a href="#">국내 국제 바리스타 자격까지 완벽 교육 지원합니다. 하반기 바리스타 교육생 모집중입니다. 바리스타 교육생 모집중입니다.</a><span>2022.10.01</span></li>
+						<li><a href="#">손글씨를 아름답게! 캘리그라피 수강생 모집중!</a><span>2022.10.01</span></li>
+						<li><a href="#">세상의 모든 풍경을 사진속에! 풍경사진 초급과정 모집 안내합니다.</a><span>2022.10.01</span></li>
+						<li><a href="#">취미에서부터 전문 화가 양성까지! 개인별 맞춤 과정 프로그램 안내합니다.</a><span>2022.10.01</span></li>
+					</ul>
+				</div>
+				<div class="board_list" id="qna">
+					<h2>자주하는 질문</h2>
+					<ul>
+						<li><a href="#">온라인 영상이 작동이 잘안되요.</a><span>2022.10.01</span></li>
+						<li><a href="#">결제신청 후 확인은 어디서 하나요?</a><span>2022.10.01</span></li>
+						<li><a href="#">취소/환불 절차를 알고 싶어요.</a><span>2022.10.01</span></li>
+						<li><a href="#">당첨자 이벤트 사은품은 어디서 수령받으면 되나요?</a><span>2022.10.01</span></li>
+						<li><a href="#">수료증 발급은 무료인가요?</a><span>2022.10.01</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="colc_b">
+				<div class="event_list">
+					<h2>이벤트</h2>
+					<div class="eventSlider">
+						<div class="item">
+							<a href=""><img src="resources/images/tmp/event1.jpg" alt="2022년 하반기 교육강좌 개설안내 2022.11.4.(목) ~ 12.17.(금) 44일간 자세히 보기"></a>
+						</div>
+						<div class="item">
+							<a href=""><img src="resources/images/tmp/event2.jpg" alt="2022년 하반기 교육강좌 개설안내 2022.11.4.(목) ~ 12.17.(금) 44일간 자세히 보기"></a>
+						</div>
+						<div class="item">
+							<a href=""><img src="resources/images/tmp/event3.jpg" alt="2022년 하반기 교육강좌 개설안내 2022.11.4.(목) ~ 12.17.(금) 44일간 자세히 보기"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- col_c -->
+
+		<section class="col_d">
+			<div class="box">
+				<h2>바로가기 링크</h2>
+				<p class="txt">삶이 있는 배움! <span>행복학습</span></p>
+				<ul>
+					<li class="link1">
+						<a href="#">
+							<strong>교육신청</strong>
+							<p>다양한 교육프로그램을 <br />신청해보세요.</p>
+						</a>
+					</li>
+					<li class="link2">
+						<a href="#">
+							<strong>강사뱅크</strong>
+							<p>강의중인 <br />강사들의 현황을 파악해보세요.</p>
+						</a>
+					</li>
+					<li class="link3">
+						<a href="#">
+							<strong>묻고 답하기</strong>
+							<p>궁금한 어떤 것이든 <br />물어보세요.</p>
+						</a>
+					</li>
+					<li class="link4">
+						<a href="#">
+							<strong>온라인 동영상 강좌</strong>
+							<p>온라인 비대면 강좌로 <br />편하게 교육받으세요.</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section><!-- col_d -->
+	</div>
+
+	<footer>
+		<div class="footer">
+			<ul class="foot_menu">
+				<li><a href="#">개인정보 처리방침</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">이메일 무단수집거부</a></li>
+				<li><a href="#">사이트맵</a></li>
+			</ul>
+			<div class="family_site">
+				<button type="button" class="select">패밀리 사이트</button>
+				<ul class="option">
+					<li><a href="#" target="_blank">사이트1</a></li>
+					<li><a href="#" target="_blank">사이트2</a></li>
+					<li><a href="#" target="_blank">사이트3</a></li>
+					<li><a href="#" target="_blank">사이트4</a></li>
+					<li><a href="#" target="_blank">사이트5</a></li>
+					<li><a href="#" target="_blank">사이트6</a></li>
+				</ul>
+			</div>
+			<address>
+				서울 강남구 학동로... <br />
+				Tel. 02-1234-1234
+			</address>
+			<p class="copy">Copyright 2022 by BIENSOFT.. ALL RIGHTS RESERVED</p>
+		</div>
+	</footer>
+
+</body>
+</html>
